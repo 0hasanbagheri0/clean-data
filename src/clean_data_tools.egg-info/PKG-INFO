@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: clean-data-tools
+Version: 0.1.1
+Summary: ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها
+Author-email: Hasan Bagheri <hasan111bagher@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/0hasanbagheri0/clean-data
+Project-URL: Repository, https://github.com/0hasanbagheri0/clean-data
+Project-URL: Issues, https://github.com/0hasanbagheri0/clean-data/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: scipy>=1.4.0
+Dynamic: license-file
+
 markdown
 # Clean-Data-tools
 

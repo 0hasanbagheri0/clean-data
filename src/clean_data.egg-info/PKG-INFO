@@ -1,5 +1,27 @@
+Metadata-Version: 2.4
+Name: clean-data
+Version: 0.1.0
+Summary: ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها
+Author-email: Hasan Bagheri <hasan111bagher@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/0hasanbagheri0/clean-data
+Project-URL: Repository, https://github.com/0hasanbagheri0/clean-data
+Project-URL: Issues, https://github.com/0hasanbagheri0/clean-data/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: scipy>=1.4.0
+Dynamic: license-file
+
 markdown
-# Clean-Data-tools
+# Clean-Data
 
 ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها در پایتون
 
@@ -15,9 +37,9 @@ markdown
 
 # English Documentation
 
-## 📁 Clean-Data-tools
+## 📁 Clean-Data
 
-**Clean-Data-tools** is a powerful library for data cleaning and preprocessing in Python. It simplifies repetitive tasks like handling missing values, removing duplicates, detecting outliers, and normalizing data.
+**Clean-Data** is a powerful library for data cleaning and preprocessing in Python. It simplifies repetitive tasks like handling missing values, removing duplicates, detecting outliers, and normalizing data.
 ---
 ### ✨ Key Features
 
@@ -33,7 +55,7 @@ markdown
 ### 📦 Installation
 
 ```bash
-pip install clean-data-tools
+pip install clean-data
 ```
 ---
 
@@ -166,8 +188,8 @@ GitHub: 0hasanbagheri0
 
 ---
 
-### 📁 Clean-Data-tools
-Clean-Data-tools یک کتابخانه قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها در پایتون است. این کتابخانه کارهای تکراری مانند مدیریت مقادیر خالی، حذف رکوردهای تکراری، تشخیص داده‌های پرت و نرمال‌سازی داده‌ها را ساده می‌کند.
+### 📁 Clean-Data
+Clean-Data یک کتابخانه قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها در پایتون است. این کتابخانه کارهای تکراری مانند مدیریت مقادیر خالی، حذف رکوردهای تکراری، تشخیص داده‌های پرت و نرمال‌سازی داده‌ها را ساده می‌کند.
 
 ---
 
@@ -189,7 +211,7 @@ Clean-Data-tools یک کتابخانه قدرتمند برای تمیزکاری 
 
 ### 📦 نصب
 ```bash
-pip install clean-data-tools
+pip install clean-data
 
 ```
 
@@ -200,7 +222,7 @@ pip install clean-data-tools
 ```python
 
 import pandas as pd
-from clean-data-tools import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
+from cleandata import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
 ```
 # بارگذاری داده
 ```bash

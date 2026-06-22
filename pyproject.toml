@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "clean-data"
-version = "0.1.0"
+name = "clean-data-tools"
+version = "0.1.1"  # از 0.1.0 به 0.1.1 تغییر یافت
 description = "ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها"
 readme = "README.md"
 authors = [
