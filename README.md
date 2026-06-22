@@ -69,6 +69,7 @@ print(report)
 ### 📚 API Reference
 # DataCleaner Class
 |Method|	Description|
+| :--- | :--- |
 |remove_duplicates(subset, keep)	|Remove duplicate rows|
 |fill_missing(method, columns)	|Fill missing values with mean, median, mode, or custom|
 |remove_missing(threshold, axis)	|Remove rows/columns with too many missing values|
@@ -81,6 +82,7 @@ print(report)
 # OutlierDetector Class
 
 |Method	|Description|
+| :--- | :--- |
 |detect_iqr(columns, multiplier)	|Detect outliers using IQR method|
 |detect_zscore(columns, threshold)	|Detect outliers using Z-Score method|
 |remove_outliers(columns, method, threshold)	|Remove rows with outliers|
@@ -89,12 +91,14 @@ print(report)
 # Normalizer Class
 
 |Method	|Description|
+| :--- | :--- |
 |min_max_scale(columns, feature_range)	|Scale to a range (default 0-1)|
 |standardize(columns)	|Standardize to mean=0, std=1|
 |robust_scale(columns)	|Scale using median and IQR (robust to outliers)|
 |log_transform(columns)	|Apply log transformation|
 # Utility Functions
 |Function	|Description|
+| :--- | :--- |
 |get_data_quality_report(df)|	Get comprehensive data quality report|
 |get_column_info(df, column)|	Get detailed info about a specific column|
 
@@ -206,6 +210,7 @@ print(report)
 ### 📚 راهنمای توابع
 # کلاس DataCleaner
 |تابع	|توضیح|
+| :--- | :--- |
 |remove_duplicates(subset, keep)|	حذف سطرهای تکراری|
 |fill_missing(method, columns)	|پر کردن مقادیر خالی با میانگین، میانه، مد یا مقدار دلخواه|
 |remove_missing(threshold, axis)|	حذف سطرها/ستون‌هایی که مقادیر خالی زیادی دارند|
@@ -216,18 +221,21 @@ print(report)
 |reset()|	بازگشت به داده‌های اصلی|
 # کلاس OutlierDetector
 |تابع	|توضیح|
+| :--- | :--- |
 |detect_iqr(columns, multiplier)	|تشخیص داده‌های پرت با روش IQR|
 |detect_zscore(columns, threshold)	|تشخیص داده‌های پرت با روش Z-Score|
 |remove_outliers(columns, method, threshold)	|حذف سطرهای حاوی داده‌های پرت|
 |replace_outliers(columns, method, multiplier)	|جایگزینی داده‌های پرت با میانگین/میانه/مقدار دلخواه|
 # کلاس Normalizer
 |تابع	|توضیح|
+| :--- | :--- |
 |min_max_scale(columns, feature_range)	|مقیاس‌سازی به بازه مشخص (پیش‌فرض ۰ تا ۱)|
 |standardize(columns)	|استانداردسازی (میانگین صفر، انحراف معیار یک)|
 |robust_scale(columns)	|مقیاس‌سازی مقاوم به داده‌های پرت (با میانه و IQR)|
 |log_transform(columns)|	اعمال تبدیل لگاریتمی|
 # توابع کمکی
 |تابع	|توضیح|
+| :--- | :--- |
 |get_data_quality_report(df)	|دریافت گزارش کامل کیفیت داده|
 |get_column_info(df, column)	|دریافت اطلاعات دقیق یک ستون خاص|
 
