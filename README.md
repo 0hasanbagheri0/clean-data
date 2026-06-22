@@ -1,5 +1,5 @@
 markdown
-# Clean-Data-tools
+# Clean-Data-Tools
 
 ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها در پایتون
 
@@ -15,9 +15,9 @@ markdown
 
 # English Documentation
 
-## 📁 Clean-Data-tools
+## 📁 clean-data-tools
 
-**Clean-Data-tools** is a powerful library for data cleaning and preprocessing in Python. It simplifies repetitive tasks like handling missing values, removing duplicates, detecting outliers, and normalizing data.
+**Clean-Data-Tools** is a powerful library for data cleaning and preprocessing in Python. It simplifies repetitive tasks like handling missing values, removing duplicates, detecting outliers, and normalizing data.
 ---
 ### ✨ Key Features
 
@@ -40,7 +40,7 @@ pip install clean-data-tools
 ### 🚀 Quick Start
 ```python
 import pandas as pd
-from cleandata import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
+from clean_data_tools import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
 ```
 # Load data
 ```bash
@@ -200,7 +200,7 @@ pip install clean-data-tools
 ```python
 
 import pandas as pd
-from clean-data-tools import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
+from Clean_Data_tools import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
 ```
 # بارگذاری داده
 ```bash

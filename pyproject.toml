@@ -1,28 +1,24 @@
-[build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "clean-data-tools"
-version = "0.1.1"  # از 0.1.0 به 0.1.1 تغییر یافت
+version = "1.0.0"  # تغییر به 1.0.0
 description = "ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها"
 readme = "README.md"
 authors = [
-{name = "Hasan Bagheri", email = "hasan111bagher@gmail.com"}
+    {name = "Hasan Bagheri", email = "hasan111bagher@gmail.com"}
 ]
 license = {text = "MIT"}
 classifiers = [
-"Programming Language :: Python :: 3",
-"License :: OSI Approved :: MIT License",
-"Operating System :: OS Independent",
-"Intended Audience :: Developers",
-"Topic :: Scientific/Engineering :: Information Analysis",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Information Analysis",
 ]
 requires-python = ">=3.7"
 dependencies = [
-"pandas>=1.0.0",
-"numpy>=1.18.0",
-"scipy>=1.4.0"
+    "pandas>=1.0.0",
+    "numpy>=1.18.0",
+    "scipy>=1.4.0"
 ]
 
 [project.urls]
