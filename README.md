@@ -229,15 +229,17 @@ outliers = detector.detect_iqr()
 ```bash
 df_clean = detector.remove_outliers()
 ```
-
-
 # نرمال‌سازی
+
 ```bash
 normalizer = Normalizer(df_clean)
+
 ```
+```bash
 df_scaled = normalizer.min_max_scale()
 ```
 # گزارش کیفیت
+
 ```bash
 report = get_data_quality_report(df_clean)
 print(report)
