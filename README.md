@@ -1,6 +1,6 @@
 # Clean-Data
 
-#ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها در پایتون.
+ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها در پایتون.
 
 [![PyPI version](https://badge.fury.io/py/clean-data.svg)](https://badge.fury.io/py/clean-data)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
@@ -19,9 +19,9 @@
 
 ```bash
 pip install clean-data
+## 🚀 شروع سریع
 
-#🚀 شروع سریع
-python
+```python
 import pandas as pd
 from cleandata import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
 
@@ -46,5 +46,4 @@ df_scaled = normalizer.min_max_scale()
 # گزارش کیفیت
 report = get_data_quality_report(df_clean)
 print(report)
-#📄 مجوز
-#MIT
+```
