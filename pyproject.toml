@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clean-data"
+version = "0.1.0"
+description = "ابزارهای قدرتمند برای تمیزکاری و پیش‌پردازش داده‌ها"
+readme = "README.md"
+authors = [
+{name = "Hasan Bagheri", email = "hasan111bagher@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+"Intended Audience :: Developers",
+"Topic :: Scientific/Engineering :: Information Analysis",
+]
+requires-python = ">=3.7"
+dependencies = [
+"pandas>=1.0.0",
+"numpy>=1.18.0",
+"scipy>=1.4.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/0hasanbagheri0/clean-data"
+Repository = "https://github.com/0hasanbagheri0/clean-data"
+Issues = "https://github.com/0hasanbagheri0/clean-data/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
