@@ -43,27 +43,46 @@ import pandas as pd
 from cleandata import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
 ```
 # Load data
+```bash
 df = pd.read_csv("data.csv")
-
+```
 # Clean data
+```bash
 cleaner = DataCleaner(df)
+```
+```bash
 cleaner.remove_duplicates()
+```
+```bash
 cleaner.fill_missing("mean")
+```
+```bash
 cleaner.strip_strings()
-
+```
 # Detect and remove outliers
+```bash
 detector = OutlierDetector(cleaner.get_data())
+```
+```bash
 outliers = detector.detect_iqr()
+```
+```bash
 df_clean = detector.remove_outliers()
-
+```
 # Normalize
+```bash
 normalizer = Normalizer(df_clean)
+```
+```bash
 df_scaled = normalizer.min_max_scale()
-
+```
 # Quality report
+```bash
 report = get_data_quality_report(df_clean)
+```
+```bash
 print(report)
-
+```
 ---
 
 ### 📚 API Reference
@@ -184,27 +203,45 @@ import pandas as pd
 from cleandata import DataCleaner, OutlierDetector, Normalizer, get_data_quality_report
 ```
 # بارگذاری داده
+```bash
 df = pd.read_csv("data.csv")
-
+```
 # تمیزکاری
+```bash
 cleaner = DataCleaner(df)
+```
+```bash
 cleaner.remove_duplicates()
+```
+```bash
 cleaner.fill_missing("mean")
+```
+```bash
 cleaner.strip_strings()
-
+```
 # تشخیص و حذف داده‌های پرت
+```bash
 detector = OutlierDetector(cleaner.get_data())
+```
+```bash
 outliers = detector.detect_iqr()
+```
+```bash
 df_clean = detector.remove_outliers()
+```
+
 
 # نرمال‌سازی
+```bash
 normalizer = Normalizer(df_clean)
+```
 df_scaled = normalizer.min_max_scale()
-
+```
 # گزارش کیفیت
+```bash
 report = get_data_quality_report(df_clean)
 print(report)
-
+```
 ---
 
 ### 📚 راهنمای توابع
